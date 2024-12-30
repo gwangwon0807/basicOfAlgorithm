@@ -2,21 +2,17 @@
 using namespace std;
 
 void insert(int idx, int num, int arr[], int& len){
-  int tmp;
   for(int i = len; idx < i; i--)
-  {
     arr[i] = arr[i-1];
-  }
   arr[idx] = num;
-  len += 1;
+  len++;
 }
 
 void erase(int idx, int arr[], int& len){
+  /*last index of array is len - 1*/
+  len--;                            
   for(int i = idx; i < len; i++)
-  {
     arr[i] = arr[i+1];
-  }
-  len -= 1;
 }
 
 void printArr(int arr[], int& len){
