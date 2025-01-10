@@ -1,1 +1,3 @@
-# refernces : https://blog.encrypted.gg/
+# refernces 
+- https://blog.encrypted.gg/
+- 
